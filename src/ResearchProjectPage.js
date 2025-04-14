@@ -313,28 +313,16 @@ export default function ResearchProjectPage() {
         <h2 className="section-heading">Spotlight Video</h2>
         <div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
           {/* YouTube video embed placeholder */}
-          <div style={{ 
-            width: '560px', 
-            height: '315px',
-            backgroundColor: '#f3f4f6',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            border: '1px solid #d1d5db',
-            borderRadius: '4px'
-          }}>
-            <p style={{ color: '#6b7280', fontStyle: 'italic' }}>YouTube video will be embedded here</p>
             {/* When you have the actual YouTube video link, replace the div above with: */}
-            {/* <iframe 
+            <iframe 
               width="560" 
               height="315" 
-              src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+              src="https://www.youtube.com/watch?v=FglCc2sxBVE" 
               title="VLSI Partitioning using Classical ML Techniques" 
               frameBorder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
               allowFullScreen
-            ></iframe> */}
-          </div>
+            ></iframe>
         </div>
       </div>
 
@@ -368,7 +356,7 @@ export default function ResearchProjectPage() {
                 <h3 style={{ margin: '0 0 8px 0' }}>VLSI Partitioning using Classical ML Techniques</h3>
                 <p style={{ margin: '0 0 4px 0' }}>Sohom Sarkar, Sambhav Jha, Tula Mrudhul, Aditya Jha, Rudra Kokhani</p>
                 <div style={{ display: 'flex', gap: '10px', margin: '10px 0 0 0' }}>
-                  <a href="#" style={{ 
+                  <a href="https://drive.google.com/file/d/1xzfHJwoEMrNKAI9-AWQDpgzhbuOsRY0O/view?usp=sharing" style={{ 
                     padding: '6px 12px', 
                     backgroundColor: '#2563eb', 
                     color: 'white', 
@@ -376,7 +364,7 @@ export default function ResearchProjectPage() {
                     borderRadius: '4px', 
                     fontSize: '14px' 
                   }}>
-                    Download PDF
+                    View Online
                   </a>
                 </div>
               </div>
@@ -804,7 +792,7 @@ export default function ResearchProjectPage() {
       <div className="section">
         <h2 className="section-heading">Contact</h2>
             <p>
-              For questions, please raise an issue on <a href="https://github.com/Sohom-Sarkar/PRML_25_proj" className="link">GitHub</a>.
+              For questions, please raise an issue on <a href="https://github.com/adityajha-iitj/prml-project-page" className="link">GitHub</a>.
             </p>
       </div>
             
